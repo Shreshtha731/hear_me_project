@@ -6,15 +6,6 @@ Git >> Version control (to store different Version of the   applications)
     v3
 new v4(to keep track or fix the bugs)
 
-for 1 st time users{
-git config --global user.name "github username"
-git config --global user.email "your github email id"
-}
-git init to create git repo
-
-for connection:
-git remote add "origin repo url"
-
 >>It is distributed on cloud
 >>It's for collaboration
 >>Tracking the other's work
@@ -23,5 +14,31 @@ git remote add "origin repo url"
 >> git status (for checking the status of the app)
 >>git add "name of the file"
 >>git add . (to add all the files)
->>git commit -m "Commit message"
-git push
+from math import *
+from numpy import *
+
+side1=int(input("enter the length of the first side in cm:"))
+side2=int(input("enter the length of the second side in cm:"))
+side3=int(input("enter the length of the third side in cm:"))
+angle=input("enter an angle (enter 90 if given, if not given then type None):")
+
+if side1!=side2!=side3 and angle =='None':
+     s=(side1+side2+side3)/2
+     area_trianle=sqrt((s-side1)+(s-side2)+(s-side3))
+     print(area_trianle,"Hence the triangle is scalene triangle according to the given information")
+elif side1!=side2!=side3 and angle =='90': 
+    h1=int(input("enter the height of the triangle in cm:"))
+    b=int(input("enter the base length in cm:")) 
+    area_trianle4=1/2*(b*h1) 
+    print(area_trianle4,"Hence the triangle is right angle triangle according to the given information")  
+elif side1==side2==side3 and angle =='None':
+    area_trianle3=(sqrt(3)/4)*(side1**2)
+    print(area_trianle3,"Hence the triangle is equilateral triangle according to the given information")     
+else:
+    h=int(input("enter the height of the triangle:")) 
+    area_trianle2=1/2*(max(side1,side2,side3)*h) 
+    print(area_trianle2,"Hence the triangle is isosceles triangle according to the given information") 
+
+
+
+
