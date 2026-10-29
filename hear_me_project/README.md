@@ -35,8 +35,9 @@ python app.py
 To launch the lightweight Matplotlib/OpenCV HUD (optimized for headless or WSL setups):
 python main.py
 
-## 👨‍💻 Author
-**Shreshtha Kumar**  
-@AyushJha2101
+## 👥 Authors
 
-Computer Science Engineering | VIT Bhopal University
+* **Shreshtha Kumar** — [@Shreshtha731](https://github.com/Shreshtha731)
+* **Ayush Jha** — [@AyushJha2101](https://github.com/AyushJha2101)
+
+*Computer Science & Engineering | VIT Bhopal University*
